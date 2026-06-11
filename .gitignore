@@ -1,0 +1,26 @@
+# بيانات سرية
+supabase-config.js
+firebase-config.js
+.env
+.env.local
+.env.*.local
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+*.log
+
+# مجلدات المكتبات
+node_modules/
+dist/
+build/
+
+# ملفات المحررات
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات التشغيل
+.run/
