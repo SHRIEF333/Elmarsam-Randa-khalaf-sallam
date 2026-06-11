@@ -263,10 +263,19 @@
                 </select>
             </div>
 
+            <div class="form-group">
+                <label for="paymentAmount">المبلغ (جنيه) *</label>
+                <select id="paymentAmount" required>
+                    <option value="">-- اختر المبلغ --</option>
+                    <option value="100">100 جنيه</option>
+                    <option value="120">120 جنيه</option>
+                    <option value="150">150 جنيه</option>
+                </select>
+            </div>
 
             <div class="form-group">
                 <label for="paymentPhone">رقم الهاتف</label>
-                <input type="tel" id="paymentPhone" placeholder="رقم هاتفك (اجباري)">
+                <input type="tel" id="paymentPhone" placeholder="رقم هاتفك (اختياري)">
             </div>
 
             <!-- Payment Methods Selection -->
@@ -286,6 +295,14 @@
                         <label for="method-instapay" class="method-label">
                             <span class="method-icon">🏪</span>
                             <span>إنستاباي</span>
+                        </label>
+                    </div>
+
+                    <div class="method-option" data-method="fawry">
+                        <input type="radio" id="method-fawry" name="paymentMethod" value="fawry">
+                        <label for="method-fawry" class="method-label">
+                            <span class="method-icon">🏠</span>
+                            <span>فوري</span>
                         </label>
                     </div>
 
